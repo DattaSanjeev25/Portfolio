@@ -7,6 +7,11 @@ document.querySelectorAll('nav ul li a').forEach(anchor => {
         });
     });
 });
+// Toggle Navbar on Mobile
+document.querySelector('.hamburger').addEventListener('click', function() {
+    document.querySelector('header nav ul').classList.toggle('active');
+});
+
 
 // Active Navigation Highlight on Scroll
 window.addEventListener('scroll', function() {
