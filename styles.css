@@ -533,7 +533,7 @@ nav ul li a.active {
     }
 
     .social-links {
-        flex-direction: column;
+        flex-direction: row;
         gap: 10px;
     }
 }
